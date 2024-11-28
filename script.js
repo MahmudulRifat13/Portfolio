@@ -44,15 +44,6 @@ window.addEventListener('scroll', updatePageTitle);
 window.addEventListener('resize', updatePageTitle);
 
 
-// // tooltip elements
-// document.querySelectorAll('.tooltip-element').forEach(function(element) {
-//     element.addEventListener('click', function() {
-//       var tooltipText = this.getAttribute('title');
-//       if (tooltipText) {
-//         alert(tooltipText);
-//       }
-//     });
-//   });
 
 var typed = new Typed('#about-typed-text', {
     strings: ['Web Developer!', 'Data Analyst!', '','Researcher!', 'Tech Enthusiast!', 'Eager Learner!','Traveller!' ],
@@ -76,9 +67,3 @@ var typed = new Typed('#home-text-repeat', {
   
 
   
-//   AOS.init({
-//     // offset: 20,
-//     // disableMutationObserver: true,
-//     delay: 10, // values from 0 to 3000, with step 50ms
-//     duration: 1000, // values from 0 to 3000, with step 50ms
-//   });
